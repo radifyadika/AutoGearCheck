@@ -10,6 +10,18 @@ from detectron2 import model_zoo
 from detectron2.data.datasets import register_coco_instances
 from detectron2.data import MetadataCatalog
 from util import set_background, visualize_with_mask
+import gdown
+import os
+
+model_path = './model/model_final.pth'
+
+# Cek apakah model sudah ada
+if not os.path.exists(model_path):
+    # Download dari Google Drive
+    file_id = '1aB2cD34E5F...'  # ganti dengan ID kamu
+    url = f'https://drive.google.com/uc?id={file_id}'
+    os.makedirs('./model', exist_ok=True)
+    gdown.download(url, model_path, quiet=False)
 
 def visualize_with_mask(original, detected, mask):
     # Custom CSS untuk memastikan teks tab terlihat di dark mode
