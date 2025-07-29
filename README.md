@@ -43,15 +43,21 @@ Flowchart for Implementing Crack Detection and Quality Classification on Gear Co
 ## 🧪 Model Interface Demo 
 
 <p align="center">
-  <img src="assets/interface_demo.png" alt="AutoGearCheck Interface Demo" width="600"/>
+  <img src="assets/interface_demo.PNG" alt="AutoGearCheck Interface Demo" width="950"/>
   <br>
   <em>Figure. Interface preview of defect detection and quality clustering system.</em>
 </p>
 
 *Try the AutoGearCheck application live via Streamlit:*
 
-👉 🔗 [Launch Specura Streamlit App]([https://specura.streamlit.app/](https://crack-detection1.streamlit.app/))
+👉 🔗 [Launch AutoGearCheck Streamlit App](https://specura.streamlit.app/](https://crack-detection1.streamlit.app/))
+
 ---
 
-## 📁 Repository Structure
+## 📬 Contact Me
 
+- 📧 Email: [Radif Ramadan](mailto:radiframadhan@gmail.com)   
+- 💼 LinkedIn: [Radif Ramadan](https://www.linkedin.com/in/radiframadan/)  
+- 📸 Instagram: [@radifyadika](https://www.instagram.com/radifyadika_/)
+
+*If you found this project helpful, feel free to star ⭐ the repo and connect with me!*
