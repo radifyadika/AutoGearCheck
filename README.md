@@ -54,6 +54,16 @@ Traditional manual inspection in manufacturing is prone to error, inefficiency, 
 
 ---
 
+## 🔧 Key Dependencies
+
+- `PyTorch`, `OpenCV`, `LabelMe`
+- `detectron2` for Cascade Mask R-CNN
+- `scikit-learn` for K-Means & clustering evaluation
+- `matplotlib` / `seaborn` for visualization
+
+> See `requirements.txt` for complete environment setup.
+
+---
 ## 📬 Contact Me
 
 - 📧 Email: [Radif Ramadan](mailto:radiframadhan@gmail.com)   
