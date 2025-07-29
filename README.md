@@ -50,7 +50,7 @@ Traditional manual inspection in manufacturing is prone to error, inefficiency, 
 
 *Try the AutoGearCheck application live via Streamlit:*
 
-👉 🔗 [Launch AutoGearCheck Streamlit App](https://specura.streamlit.app/](https://crack-detection1.streamlit.app/))
+👉 🔗 [Launch AutoGearCheck Streamlit App](https://autogearcheck.streamlit.app/)
 
 ---
 
