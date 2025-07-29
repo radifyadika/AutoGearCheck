@@ -19,9 +19,8 @@ Traditional manual inspection in manufacturing is prone to error, inefficiency, 
 
 | Module             | Description |
 |--------------------|-------------|
-| 🖼️ **Computer Vision** | Detects cracks using **Cascade Mask R-CNN**, trained on augmented defect images. |
+| 🖼️ **Computer Vision** | Detects cracks using **Cascade Mask R-CNN**, trained on augmented defect images, measure crack length.|
 | 📉 **Unsupervised Clustering** | Groups product quality into **Grade A, B, and C** using **K-Means** based on crack length. |
-| 📏 **SQC** (X̄-R Control Charts) | Verifies the statistical control of the process before and after CV implementation. |
 
 ---
 
@@ -34,22 +33,11 @@ Traditional manual inspection in manufacturing is prone to error, inefficiency, 
 
 ---
 
-## 🖼️ Model Pipeline Overview
+## 🧠 Research Flow
 
-1. **Image Preprocessing**
-   - Labeling via LabelMe
-   - Data Augmentation
-2. **Detection Training**
-   - Model: Cascade Mask R-CNN
-   - Accuracy: `AP50 = 96.63%` (bbox), `85.08%` (mask)
-3. **Crack Length Measurement**
-   - Extracted from segmentation mask
-4. **Clustering**
-   - Algorithm: K-Means
-   - Metrics: `Silhouette Score = 0.636`, `DBI = 0.432`
-   - Output: Quality Grades (A, B, C)
-5. **Process Validation**
-   - Statistical Quality Control (X̄ and R charts)
+Flowchart for Implementing Crack Detection and Quality Classification on Gear Components using Cascade Mask R-CNN and K-Means
+
+![Research Flow](./assets/RESEARCH%20FLOW.png)
 
 ---
 
