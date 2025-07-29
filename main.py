@@ -18,7 +18,7 @@ model_path = './model/model_final.pth'
 # Cek apakah model sudah ada
 if not os.path.exists(model_path):
     # Download dari Google Drive
-    file_id = '1aB2cD34E5F...'  # ganti dengan ID kamu
+    file_id = '10Be-WNw8svw1G-VZw-qmDeIjr5YVrHsr'
     url = f'https://drive.google.com/uc?id={file_id}'
     os.makedirs('./model', exist_ok=True)
     gdown.download(url, model_path, quiet=False)
