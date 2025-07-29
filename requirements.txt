@@ -1,6 +1,6 @@
-streamlit
+streamlit==1.23.1
 Pillow==9.5.0
-numpy==1.23.5
+numpy==1.21.6
 torch==1.9.0
 torchvision==0.10.0
 opencv-python==4.6.0.66
@@ -9,8 +9,4 @@ plotly==5.15.0
 scikit-learn==1.3.2
 gdown==5.2.0
 pycocotools==2.0.7
-pickle5==0.0.11
-#git+https://github.com/facebookresearch/detectron2.git #detectron2
-
--f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch1.9/index.html
-detectron2
+detectron2 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch1.9/index.html
