@@ -3,6 +3,13 @@
 Welcome to **AutoGearCheck**, a research-driven AI system that combines **Computer Vision** and **Unsupervised Learning** for **automated defect detection and quality clustering** of automotive components. This project was developed as part of a Bachelor's thesis at the Department of Industrial Engineering, Universitas Singaperbangsa Karawang.
 
 ---
+## 🧩 Research Flow
+
+Flowchart for Implementing Crack Detection and Quality Classification on Gear Components using Cascade Mask R-CNN and K-Means
+
+![Research Flow](./assets/RESEARCH%20FLOW.png)
+
+---
 
 ## 🎯 Project Summary
 
@@ -33,13 +40,6 @@ Traditional manual inspection in manufacturing is prone to error, inefficiency, 
 
 ---
 
-## 🧠 Research Flow
-
-Flowchart for Implementing Crack Detection and Quality Classification on Gear Components using Cascade Mask R-CNN and K-Means
-
-![Research Flow](./assets/RESEARCH%20FLOW.png)
-
----
 ## 🧪 Model Interface Demo 
 
 <p align="center">
